@@ -1,0 +1,1 @@
+from external_asset_ism_ismc_generation_tool.mss_client_manifest.ismc_generator import IsmcGenerator
