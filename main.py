@@ -1,9 +1,3 @@
-import os.path
-import sys
-
-current_path = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.abspath(os.path.join(current_path, '..')))
-
 from external_asset_ism_ismc_generation_tool.azure_client.azure_blob_service_client import AzureBlobServiceClient
 from external_asset_ism_ismc_generation_tool.common.logger.logger import Logger
 from external_asset_ism_ismc_generation_tool.common.common import Common
